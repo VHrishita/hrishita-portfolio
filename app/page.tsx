@@ -3,14 +3,18 @@
 import { navItems } from "@/data";
 
 import Hero from "@/components/Hero";
-import Grid from "@/components/Grid";
 import Footer from "@/components/Footer";
 import Approach from "@/components/Approach";
-import Experience from "@/components/Experience";
-import RecentProjects from "@/components/RecentProjects";
-import { FloatingNav } from "@/components/ui/FloatingNavbar";
-import Skills from "@/components/Skills";
 
+// Components that use document/window
+import dynamic from "next/dynamic";
+
+const Grid = dynamic(() => import("@/components/Grid"), { ssr: false });
+const RecentProjects = dynamic(() => import("@/components/RecentProjects"), { ssr: false });
+const Experience = dynamic(() => import("@/components/Experience"), { ssr: false });
+const Skills = dynamic(() => import("@/components/Skills"), { ssr: false });
+
+import { FloatingNav } from "@/components/ui/FloatingNavbar";
 
 const Home = () => {
   return (
