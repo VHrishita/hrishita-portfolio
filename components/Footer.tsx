@@ -48,7 +48,7 @@ const Footer = () => {
       </div>
 
       <div className="flex flex-col items-center">
-        <h1 className="heading">Let's get in touch</h1>
+        <h1 className="heading">Let&apos;s get in touch</h1>
 
         <button onClick={() => setIsOpen(true)}>
           <MagicButton
