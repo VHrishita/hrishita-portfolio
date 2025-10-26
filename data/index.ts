@@ -78,6 +78,18 @@ export const projects = [
   },
   {
     id: 2,
+    title: "AI - Translator",
+    des: "AI Translator is a real-time speech-to-text translation app.",
+    img: "/project7.jpg",
+    iconLists: ["/HTML5.svg", "/CSS3.svg", "/OpenAPI.svg", "/React.svg"],
+    link: "https://github.com/VHrishita/ai-translator",
+    site: "https://ai-translator-two.vercel.app/",
+    year: "2025",
+    organization: "Pinnacle Labs Internship",
+    role: "Project Developer",
+  },
+  {
+    id: 3,
     title: "Student Management System",
     des: "A system to track student performance, attendance and more.",
     img: "/project1.jpg",
@@ -88,7 +100,7 @@ export const projects = [
     role: "Frontend Developer",
   },
   {
-    id: 3,
+    id: 4,
     title: "Python Object Detector",
     des: "Real-time object detection using YOLO with PyTorch & OpenCV.",
     img: "/project2.jpg",
@@ -99,7 +111,7 @@ export const projects = [
     role: "Developer",
   },
   {
-    id: 4,
+    id: 5,
     title: "LAN-to-LAN",
     des: "Connecting Two LANs via Router – Cisco Packet Tracer Project.",
     img: "/project3.jpg",
@@ -110,7 +122,7 @@ export const projects = [
     role: "Developer",
   },
   {
-    id: 5,
+    id: 6,
     title: "Invisible Cloak",
     des: "Wave your cloak and disappear - thanks to computer vision!",
     img: "/project4.jpg",
@@ -121,7 +133,7 @@ export const projects = [
     role: "Developer",
   },
   {
-    id: 6,
+    id: 7,
     title: "Winx",
     des: "A mental wellness app for higher education students.",
     img: "/project5.jpg",
