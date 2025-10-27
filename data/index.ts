@@ -91,9 +91,9 @@ export const projects = [
   {
     id: 3,
     title: "Intrusion Detection System",
-    des: "A ML-based Intrusion Detection System that classifies network flows as Normal ✅ or Attack ⚠️.",
+    des: "A ML-based Intrusion Detection System that classifies network flows as Normal or Attacked.",
     img: "/project8.jpg",
-    iconLists: ["/Python.svg", "/NumPy.svg", "/Flask.svg", "/Panda.svg", "/Matplotlib.png", "/scikit.svg"],
+    iconLists: ["/Python.svg", "/NumPy.svg", "/Flask.svg", "/Pandas.svg", "/Matplotlib.png", "/scikit.svg"],
     link: "https://github.com/VHrishita/Intrusion-Detection-System",
     year: "2025",
     organization: "Computer Networks Project",
