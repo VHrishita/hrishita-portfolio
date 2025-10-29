@@ -18,7 +18,6 @@ const Skills = () => {
         My <span className="text-purple">Skills</span>
       </h1>
 
-      {/* Categories */}
       <div className="flex justify-center gap-4 mb-10 flex-wrap">
         {categories.map((cat) => (
           <button
@@ -35,7 +34,6 @@ const Skills = () => {
         ))}
       </div>
 
-      {/* Skills Grid */}
       <div className="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2 gap-6 px-6">
         {filteredSkills.map((skill) => (
           <div
