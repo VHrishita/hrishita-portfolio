@@ -38,7 +38,7 @@ const Footer = () => {
 
   return (
     <footer className="w-full pt-20 pb-10 relative" id="contact">
-      {/* Background grid */}
+      
       <div className="w-full absolute left-0 -bottom-0 min-h-80 -z-10">
         <img
           src="/footer-grid.svg"
@@ -58,8 +58,7 @@ const Footer = () => {
           />
         </button>
       </div>
-
-      {/* Contact Form Modal */}
+      
       {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-70 flex items-center justify-center z-50">
           <div className="bg-[#0f0f1a] p-8 rounded-2xl w-full max-w-md shadow-lg">
@@ -125,7 +124,6 @@ const Footer = () => {
         </div>
       )}
 
-      {/* Footer bottom */}
       <p className="mt-12 text-sm text-gray-400 text-center">
         © 2025 Vempali Hrishita. All rights reserved.
       </p>
