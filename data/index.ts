@@ -157,7 +157,6 @@ export const projects = [
 ];
 
 
-
 export const workExperience = [
   {
     id: 1,
