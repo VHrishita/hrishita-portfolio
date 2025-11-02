@@ -91,7 +91,7 @@ export const projects = [
    {
     id: 3,
     title: "Smart SecuriBot",
-    des: "Chatbot that helps users check password strength, detect unsafe keywords, and provides friendly cybersecurity guidance",
+    des: "Chatbot that helps users check password strength and provides friendly cybersecurity guidance",
     img: "/project9.jpg",
     iconLists: ["/HTML5.svg", "/CSS3.svg", "/JavaScript.svg"],
     link: "https://github.com/VHrishita/Smart-SecuriBot",
