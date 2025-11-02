@@ -88,8 +88,20 @@ export const projects = [
     organization: "Pinnacle Labs Internship",
     role: "Project Developer",
   },
-  {
+   {
     id: 3,
+    title: "Smart SecuriBot",
+    des: "Chatbot that helps users check password strength, detect unsafe keywords, and provides friendly cybersecurity guidance",
+    img: "/project9.jpg",
+    iconLists: ["/HTML5.svg", "/CSS3.svg", "/JavaScript.svg"],
+    link: "https://github.com/VHrishita/Smart-SecuriBot",
+    site: "https://smart-securi-bot.vercel.app/",
+    year: "2025",
+    organization: "Computation Project",
+    role: "Developer",
+  },
+  {
+    id: 4,
     title: "Intrusion Detection System",
     des: "A ML-based Intrusion Detection System that classifies network flows as Normal or Attacked.",
     img: "/project8.jpg",
@@ -100,7 +112,7 @@ export const projects = [
     role: "Developer",
   },
   {
-    id: 4,
+    id: 5,
     title: "Student Management System",
     des: "A system to track student performance, attendance and more.",
     img: "/project1.jpg",
@@ -111,7 +123,7 @@ export const projects = [
     role: "Frontend Developer",
   },
   {
-    id: 5,
+    id: 6,
     title: "Python Object Detector",
     des: "Real-time object detection using YOLO with PyTorch & OpenCV.",
     img: "/project2.jpg",
@@ -122,7 +134,7 @@ export const projects = [
     role: "Developer",
   },
   {
-    id: 6,
+    id: 7,
     title: "LAN-to-LAN",
     des: "Connecting Two LANs via Router – Cisco Packet Tracer Project.",
     img: "/project3.jpg",
@@ -133,7 +145,7 @@ export const projects = [
     role: "Developer",
   },
   {
-    id: 7,
+    id: 8,
     title: "Invisible Cloak",
     des: "Wave your cloak and disappear - thanks to computer vision!",
     img: "/project4.jpg",
@@ -144,7 +156,7 @@ export const projects = [
     role: "Developer",
   },
   {
-    id: 8,
+    id: 9,
     title: "Winx",
     des: "A mental wellness app for higher education students.",
     img: "/project5.jpg",
