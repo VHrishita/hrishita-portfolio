@@ -111,7 +111,6 @@ export const projects = [
     organization: "Computer Networks Project",
     role: "Developer",
   },
-  
   {
     id: 5,
     title: "Student Management System",
