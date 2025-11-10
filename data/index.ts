@@ -109,7 +109,7 @@ export const projects = [
     iconLists: ["/Python.svg", "/NumPy.svg", "/flask.png", "/Pandas.svg", "/Matplotlib.png", "/scikit.svg"],
     link: "https://github.com/VHrishita/Intrusion-Detection-System",
     year: "2025",
-    organization: "Computer Networks Project",
+    organization: "Computer Network Project",
     role: "Developer",
   },
   {
