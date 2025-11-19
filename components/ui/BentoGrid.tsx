@@ -45,7 +45,7 @@ export const BentoGridItem = ({
   imgClassName?: string;
   titleClassName?: string;
   spareImg?: string;
-  link?: string; // ✅ added link support
+  link?: string;
 }) => {
   const leftLists = ["ReactJS", "Express", "Typescript"];
   const rightLists = ["TailwindCSS", "MySQL", "GraphQL"];
