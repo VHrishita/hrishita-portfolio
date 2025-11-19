@@ -17,9 +17,7 @@ const RecentProjects = () => {
             className="lg:min-h-[32.5rem] h-[25rem] flex items-center justify-center sm:w-96 w-[80vw]"
             key={item.id}
           >
-            {/* The whole card goes to GitHub by default */}
             <PinContainer title={item.title} href={item.site || item.link}>
-              {/* Image Section */}
               <div className="relative flex items-center justify-center sm:w-96 w-[80vw] overflow-hidden h-[20vh] lg:h-[30vh] mb-10">
                 <div
                   className="relative w-full h-full overflow-hidden lg:rounded-3xl"
@@ -34,12 +32,10 @@ const RecentProjects = () => {
                 />
               </div>
 
-              {/* Title */}
               <h1 className="font-semibold lg:text-xl md:text-lg text-base line-clamp-1">
                 {item.title}
               </h1>
 
-              {/* Description */}
               <p
                 className="lg:text-base md:text-sm text-xs font-light line-clamp-2"
                 style={{ color: "#BEC1DD", margin: "0.6vh 0" }}
@@ -47,7 +43,6 @@ const RecentProjects = () => {
                 {item.des}
               </p>
 
-              {/* Year, Organization, and Role */}
               <p className="text-[12px] md:text-sm text-gray-400 italic mb-1">
                 {item.year} • {item.organization}
               </p>
@@ -55,7 +50,6 @@ const RecentProjects = () => {
                 Role: <span className="text-purple">{item.role}</span>
               </p>
 
-              {/* Tech icons + Links */}
               <div className="flex items-center justify-between mt-6 mb-3">
                 <div className="flex items-center">
                   {item.iconLists.map((icon, index) => (
@@ -69,20 +63,17 @@ const RecentProjects = () => {
                   ))}
                 </div>
 
-                {/* ✅ Links Section */}
                 <div className="flex flex-col gap-1 text-right">
-                  {/* GitHub link (always) */}
                   <a
                     href={item.link}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center justify-end lg:text-base md:text-sm text-xs text-purple hover:underline"
-                    onClick={(e) => e.stopPropagation()} // prevent triggering main card click
+                    onClick={(e) => e.stopPropagation()} 
                   >
                     GitHub <FaLocationArrow className="ms-2" color="#CBACF9" size={14} />
                   </a>
 
-                  {/* Live link (if available) */}
                   {item.site && (
                     <a
                       href={item.site}
