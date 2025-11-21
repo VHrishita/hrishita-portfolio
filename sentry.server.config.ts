@@ -4,6 +4,5 @@ Sentry.init({
   tracesSampleRate: 1,
 
   debug: false,
-  // spotlight: process.env.NODE_ENV === 'development',
   
 });
