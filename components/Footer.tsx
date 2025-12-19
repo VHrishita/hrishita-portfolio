@@ -34,7 +34,6 @@ const Footer = () => {
   };
   return (
     <footer className="w-full pt-20 pb-10 relative" id="contact">
-      
       <div className="w-full absolute left-0 -bottom-0 min-h-80 -z-10">
         <img
           src="/footer-grid.svg"
