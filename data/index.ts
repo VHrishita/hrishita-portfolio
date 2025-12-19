@@ -232,7 +232,6 @@ export const socialMedia = [
 ];
 
 export const skills = [
-  // Programming Languages
   { id: 1, name: "Java", icon: "/Java.png", category: "Programming" },
   { id: 2, name: "C", icon: "/C.png", category: "Programming" },
   { id: 13, name: "Python", icon: "/Python.svg", category: "Programming" },
