@@ -13,7 +13,6 @@ const Footer = () => {
 
     const form = e.currentTarget as HTMLFormElement;
     const formData = new FormData(form);
-
     try {
       const res = await fetch("https://formspree.io/f/mblzonvk", {
         method: "POST",
