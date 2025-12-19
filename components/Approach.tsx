@@ -84,7 +84,6 @@ const Card = ({
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
-      {/* subtle corner icons */}
       <Icon className="absolute h-8 w-8 -top-2 -left-2 dark:text-white text-black opacity-20" />
       <Icon className="absolute h-8 w-8 -bottom-2 -left-2 dark:text-white text-black opacity-20" />
       <Icon className="absolute h-8 w-8 -top-2 -right-2 dark:text-white text-black opacity-20" />
@@ -101,7 +100,6 @@ const Card = ({
           </motion.div>
         )}
       </AnimatePresence>
-
       <div className="relative z-20 px-6">
         <div className="text-center group-hover/canvas-card:-translate-y-3 absolute top-[45%] left-[50%] translate-x-[-50%] translate-y-[-50%] 
         group-hover/canvas-card:opacity-0 transition duration-200 flex items-center justify-center">
@@ -128,7 +126,6 @@ const Card = ({
     </div>
   );
 };
-
 const AceternityIcon = ({ order }: { order: string }) => {
   return (
     <button className="relative inline-flex overflow-hidden rounded-full p-[1px] ">
@@ -145,7 +142,6 @@ const AceternityIcon = ({ order }: { order: string }) => {
     </button>
   );
 };
-
 export const Icon = ({ className, ...rest }: any) => {
   return (
     <svg
