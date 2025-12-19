@@ -6,7 +6,6 @@ import Hero from "@/components/Hero";
 import Footer from "@/components/Footer";
 import Approach from "@/components/Approach";
 
-// Components that use document/window
 import dynamic from "next/dynamic";
 
 const Grid = dynamic(() => import("@/components/Grid"), { ssr: false });
