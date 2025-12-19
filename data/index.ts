@@ -254,7 +254,6 @@ export const skills = [
   { id: 26, name: "Power BI", icon: "/powerbi.png", category: "AI" },
   { id: 28, name: "Tableau", icon: "/tableau.png", category: "AI" },
 
-  // Tools
   { id: 15, name: "Git", icon: "/Git.png", category: "Tools" },
   { id: 16, name: "GitHub", icon: "/github.png", category: "Tools" },
   { id: 17, name: "VS Code", icon: "/vs.png", category: "Tools" },
