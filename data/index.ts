@@ -237,18 +237,15 @@ export const skills = [
   { id: 13, name: "Python", icon: "/Python.svg", category: "Programming" },
   { id: 8, name: "PHP", icon: "/PHP.svg", category: "Programming" },
 
-  // Frontend
   { id: 3, name: "HTML5", icon: "/HTML5.svg", category: "Frontend" },
   { id: 4, name: "CSS3", icon: "/CSS3.svg", category: "Frontend" },
   { id: 5, name: "React", icon: "/React.svg", category: "Frontend" },
   { id: 7, name: "Tailwind CSS", icon: "/Tailwind.svg", category: "Frontend" },
 
-  // Backend
   { id: 11, name: "MongoDB", icon: "/MongoDB.svg", category: "Backend" },
   { id: 12, name: "MySQL", icon: "/MySQL.svg", category: "Backend" },
   { id: 25, name: "Eclipse IDE", icon: "/Eclipse IDE.png", category: "Backend" },
 
-  // AI
   { id: 10, name: "Matplotlib", icon: "/Matplotlib.png", category: "AI" },
   { id: 24, name: "OpenCV", icon: "/OpenCV.svg", category: "AI" },
   { id: 26, name: "Power BI", icon: "/powerbi.png", category: "AI" },
