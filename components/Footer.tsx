@@ -3,7 +3,6 @@
 import { useState } from "react";
 import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
-
 const Footer = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [isSubmitted, setIsSubmitted] = useState(false);
