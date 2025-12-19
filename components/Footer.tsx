@@ -32,7 +32,6 @@ const Footer = () => {
       setError(true);
     }
   };
-
   return (
     <footer className="w-full pt-20 pb-10 relative" id="contact">
       
